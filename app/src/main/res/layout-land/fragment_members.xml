@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="430dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Family Head"
+        android:id="@+id/familyHeadTextView"
+        android:textColor="#011936"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="45dp"
+    android:layout_marginLeft="175dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="House id"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family id"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head Name"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+       />
+
+
+</LinearLayout>
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="190dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/family_head_list"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"/>
+
+
+    </LinearLayout>
